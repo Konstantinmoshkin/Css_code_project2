@@ -1,0 +1,84 @@
+[
+    {
+      "id": "1",
+      "title": "Провожающая в последний путь Фрирен",
+      "vendor_code": "111",
+      "description": "Драма, Приключения, Фэнтези",
+      "recen": 9.32,
+      "img": "friren.webp"
+    },
+    {
+      "id": "2",
+      "title": "Ван-Пис: Письмо от поклонника",
+      "vendor_code": "",
+      "description": "Сёнен, Экшен, Фэнтези",
+      "recen": 9.17,
+      "img": "onepiece.webp"
+    },
+    {
+      "id": "3",
+      "title": "Стальной Алхимик: Братство",
+      "vendor_code": "333",
+      "description": "Сёнен, Экшен, Драма",
+      "recen": 9.09,
+      "img": "alchimic.webp"
+    },
+    {
+      "id": "4",
+      "title": "Врата Штейна",
+      "vendor_code": "444",
+      "description": "Драма, Фантанстика, Романтика",
+      "recen": 9.07,
+      "img": "gates.webp"
+    }
+    ,
+    {
+      "id": "5",
+      "title": "Атака Титанов",
+      "vendor_code": "4445e",
+      "description": "Драма, Сёнен, Экшен",
+      "recen": 9.05,
+      "img": "attack.jpg"
+    },
+    {
+      "id": "6",
+      "title": "Гинтама",
+      "vendor_code": "4446e",
+      "description": "Комедия, Сёнен, Экшен",
+      "recen": 9.04,
+      "img": "gint.webp"
+    },
+    {
+      "id": "7",
+      "title": "Охотник X Охотник",
+      "vendor_code": "4447e",
+      "description": "Фентези, Сёнен, Приключения",
+      "recen": 9.03,
+      "img": "hunt.jpg"
+    },
+    {
+      "id": "8",
+      "title": "Блич",
+      "vendor_code": "4448e",
+      "description": "Фентези , Сёнен, Приключения",
+      "recen": 9.01,
+      "img": "bleach.jpg"
+    },
+    {
+      "id": "9",
+      "title": "Госпожа Кагуя: в любви как на войне",
+      "vendor_code": "444e",
+      "description": "Романтика, Комедия, Повседневность",
+      "recen": 9,
+      "img": "kagua.jpeg"
+    }
+    ,
+    {
+      "id": "10",
+      "title": "Кланнад",
+      "vendor_code": "44410e",
+      "description": "Драма, Повседневность, Романтика",
+      "recen": 8.93,
+      "img": "clannad.webp"
+    }
+  ]

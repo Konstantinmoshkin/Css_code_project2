@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+    
+    background-image: url("picture.gif");
+    
+    background-position: center center;
+    
+    background-size: cover;
+   
+    background-repeat: no-repeat;
+   
+    background-attachment: fixed;
+  }
+  .navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 25%;
+  background-color: #9932CC;
+  position: sticky;
+  height: 100%;
+  overflow: auto;
+}
+
+li a {
+  display: block;
+  color: #9370DB;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+li a.active {
+  background-color:  #391879cc;
+  color: red;
+}
+
+li a:hover:not(.active) {
+  background-color: #9370DB;
+  color: white;
+}
+
+li a {
+  font-family:  Impact, Charcoal, sans-serif;
+  font-size:22px;
+  color: white;
+}
+li a:hover:not(.active) {
+  font-family:  Impact, Charcoal, sans-serif;
+  font-size:22px;
+  color: white;
+}
+ 
+</style>
+<body>
+
+    <nav>
+        <ul class = 'navbar'>
+            <li><a href = 'index.html' target = '_self'>НАЧАЛЬНАЯ СТРАНИЦА САЙТА</a></li>
+            <li> <a href = 'recomended.html'>РЕКОМЕНДУЕМ ПОСМОТРЕТЬ</a></li>
+            <li><a href = 'https://myanimelist.net/topanime.php'><img height="30px" src="./logANIME.avif"></a></li>
+            <li><a href = 'Table.html'> САМЫЕ ВЫСОКООЦЕНЕННЫЕ АНИМЕ</a></li>
+            <li><a href = 'passport.html'>ПАССПОРТ</a></li>
+        
+            <li><a href = 'passportchange.html'>ИЗМЕНЕНИЕ ПАССПОРТА - КИРИЛЛИЦА НА ЛАТИНИЦУ</a></li>
+        
+            <li><a href = 'solve.html'>АЛГОРИТМИЧЕСКАЯ ЗАДАЧА</a></li>
+            <li><a href = 'original.html' class = 'active'>ОТПРАВКА ДАННЫХ АЛГОРИТМИЧЕСКОЙ ЗАДАЧИ</a></li>
+            <li><a href = 'request.html'>ФОРМА ДЛЯ ОТПРАВКИ ОТЗЫВОВ</a>
+            <ul>
+                <li><a href = 'request.html#registration'>Регистрация</a></li>
+                <li><a href = 'request.html#addition'>Предложить свое аниме</a></li>
+            </ul>
+            </li>
+        </ul>
+        </nav>
+<hr color = 'black'>
+
+    <form action = 'https://www.bing.com/search?' id = 'UserEnter' name = 'UserEnter' target = '_blank'>
+        <p>
+            <input type = 'hidden' name = 'q' value = 'search'>
+        </p>
+        <p>
+            Формулировка задачи
+        </p>
+        <textarea name = 'problem' cols = '100' rows = '10'> </textarea>
+        <p>
+            Введите число A
+            <input type = 'text' id = 'g' name = 'A'>
+        </p>
+        <p>
+            Введите число B
+            <input type = 'text' id = 'h' name = 'B'>
+        </p>
+        <p>
+            Введите число X
+            <input type = 'text' id = 'j' name = 'X'>
+        </p>
+        <input id = 'resul' name= 'result' value = 'не определен'> 
+       <input id = 'verif' type = 'button' value = 'Проверить'> <input type = 'submit' value = 'Отправить'>
+
+    </form>
+    <script src = 'newform.js'></script>
+    
+</body>
+
+
+</html>
